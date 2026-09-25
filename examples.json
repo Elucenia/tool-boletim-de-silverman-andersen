@@ -1,0 +1,90 @@
+[
+  {
+    "label": "Nenhum sinal: 0 ponto",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "score": 0,
+      "level": "low"
+    },
+    "originalInput": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+    "input": {
+      "tor": "1",
+      "ic": "1",
+      "xif": "1",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "score": 3,
+      "level": "mid"
+    },
+    "originalInput": {
+      "tor": "1",
+      "ic": "1",
+      "xif": "1",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+    "input": {
+      "tor": "0",
+      "ic": "2",
+      "xif": "1",
+      "asa": "1",
+      "gem": "1"
+    },
+    "expected": {
+      "score": 5,
+      "level": "high"
+    },
+    "originalInput": {
+      "tor": "0",
+      "ic": "2",
+      "xif": "1",
+      "asa": "1",
+      "gem": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+    "input": {
+      "tor": "2",
+      "ic": "2",
+      "xif": "1",
+      "asa": "1",
+      "gem": "2"
+    },
+    "expected": {
+      "score": 8,
+      "level": "high"
+    },
+    "originalInput": {
+      "tor": "2",
+      "ic": "2",
+      "xif": "1",
+      "asa": "1",
+      "gem": "2"
+    },
+    "expandedZeroOptions": []
+  }
+]
