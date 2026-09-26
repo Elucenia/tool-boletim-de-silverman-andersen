@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-boletim-de-silverman-andersen · Elucenia · https://github.com/Elucenia/tool-boletim-de-silverman-andersen
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"boletim-de-silverman-andersen","title":"Boletim de Silverman-Andersen","fields":[["tor","Movimento tóraco-abdominal","radio",{"opts":{"0":"Sincronizado","1":"Declínio inspiratório","2":"Balancim (gangorra)"}}],["ic","Tiragem intercostal","radio",{"opts":{"0":"Ausente","1":"Pouco visível","2":"Marcada"}}],["xif","Retração xifoide","radio",{"opts":{"0":"Ausente","1":"Pouco visível","2":"Marcada"}}],["asa","Batimento de asa nasal","radio",{"opts":{"0":"Ausente","1":"Discreto","2":"Acentuado"}}],["gem","Gemido expiratório","radio",{"opts":{"0":"Ausente","1":"Audível com estetoscópio","2":"Audível sem estetoscópio"}}]],"config":{"unit":"de 10","label":"Boletim de Silverman-Andersen","fields":[["tor","radio",0],["ic","radio",0],["xif","radio",0],["asa","radio",0],["gem","radio",0]],"bands":[[0,"low","Sem desconforto respiratório",""],[1,"mid","Desconforto respiratório presente (1 a 4 pontos)","Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio)."],[5,"high","Desconforto moderado a grave (≥ 5 pontos)","No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com &lt; 5)."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
