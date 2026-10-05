@@ -3,13 +3,13 @@
     "id": "boletim-de-silverman-andersen",
     "title": "Boletim de Silverman-Andersen",
     "short": "Desconforto respiratório do recém-nascido",
+    "desc": "Calcule o Boletim de Silverman-Andersen (BSA) para quantificar o desconforto respiratório do recém-nascido: tiragens, gemido, batimento de asa nasal e balancim.",
+    "lead": "Quantifica o grau de desconforto respiratório do recém-nascido por cinco sinais observados ao exame, útil para acompanhar a evolução e decidir o suporte ventilatório.",
+    "kind": "Escore",
     "spec": [
       "pediatria",
       "medicina-intensiva"
     ],
-    "tier": 1,
-    "desc": "Calcule o Boletim de Silverman-Andersen (BSA) para quantificar o desconforto respiratório do recém-nascido: tiragens, gemido, batimento de asa nasal e balancim.",
-    "lead": "Quantifica o grau de desconforto respiratório do recém-nascido por cinco sinais observados ao exame, útil para acompanhar a evolução e decidir o suporte ventilatório.",
     "fields": [
       [
         "tor",
@@ -72,56 +72,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "Boletim de Silverman-Andersen",
-      "unit": "de 10",
-      "bands": [
-        [
-          0,
-          "low",
-          "Sem desconforto respiratório",
-          ""
-        ],
-        [
-          1,
-          "mid",
-          "Desconforto respiratório presente (1 a 4 pontos)",
-          "Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio)."
-        ],
-        [
-          5,
-          "high",
-          "Desconforto moderado a grave (≥ 5 pontos)",
-          "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com &lt; 5)."
-        ]
-      ]
-    },
     "formula": "<p>Cinco sinais, cada um de 0 (ausente) a 2 (intenso): movimento tóraco-abdominal, tiragem intercostal, retração xifoide, batimento de asa nasal e gemido expiratório. Total de 0 a 10: <strong>quanto maior, pior</strong> (ao contrário do Apgar).</p>",
-    "table": [
-      [
-        "Pontos",
-        "Interpretação"
-      ],
-      [
-        "0",
-        "Sem desconforto"
-      ],
-      [
-        "1 a 4",
-        "Desconforto presente, em geral leve a moderado"
-      ],
-      [
-        "≥ 5",
-        "Desconforto moderado a grave: maior necessidade de escalonar o suporte"
-      ]
-    ],
-    "table_note": "As faixas de gravidade variam entre os protocolos brasileiros: há os que consideram leve a nota inferior a 5 e os que usam 1 a 3 leve, 4 a 6 moderado e 7 ou mais grave. Todos concordam que 0 é ausência de desconforto e 10, o grau máximo. O corte ≥ 5 é o testado por Hedstrom (2018).",
-    "tips": [
-      "O boletim mede o esforço respiratório, não a troca gasosa: avalie junto a frequência respiratória, a saturação pré-ductal e a gasometria.",
-      "Um BSA baixo com apneia, bradicardia ou fadiga pode significar exaustão, e não melhora: reavalie o contexto.",
-      "Registre o boletim de forma seriada (por exemplo, a cada hora nas primeiras horas): a tendência vale mais que um valor isolado.",
-      "Foi desenvolvido para prematuros; o gemido expiratório isolado no recém-nascido a termo nas primeiras horas pode ser transitório."
-    ],
     "sources": [
       [
         "Silverman WA, Andersen DH. A controlled clinical trial of effects of water mist on obstructive respiratory signs, death rate and necropsy findings among premature infants. Pediatrics, 1956.",
@@ -190,59 +141,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 10",
-      "label": "Boletim de Silverman-Andersen",
-      "fields": [
-        [
-          "tor",
-          "radio",
-          0
-        ],
-        [
-          "ic",
-          "radio",
-          0
-        ],
-        [
-          "xif",
-          "radio",
-          0
-        ],
-        [
-          "asa",
-          "radio",
-          0
-        ],
-        [
-          "gem",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Sem desconforto respiratório",
-          ""
-        ],
-        [
-          1,
-          "mid",
-          "Desconforto respiratório presente (1 a 4 pontos)",
-          "Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio)."
-        ],
-        [
-          5,
-          "high",
-          "Desconforto moderado a grave (≥ 5 pontos)",
-          "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com &lt; 5)."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -251,17 +149,189 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T00:48:48.914Z",
+      "total": 243,
+      "passed": 243,
+      "evidencePath": "reports/review-20261003/additional-native-scoring-source-oracles-final19.json",
+      "evidenceSha256": "8f1eeb174b60822ed95db7c00b389f25d9f5ec4d1eb592cf2c9eaeebccd0717a",
+      "scope": "All243 assignments of five observed0–2 scores. No assessment of signs or predictive/clinical thresholds is approved; this primary study found poor inter-rater reliability.",
+      "source": {
+        "edition": "Silverman-Andersen score, arithmetic confirmed in Brenne et al2023 Methods/Measures",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
+        "locator": "Methods, Measures; lines197–199 in the retrieved primary article",
+        "access": "Primary research paper opened; scoring range and Methods/Measures read. No claim of reading the full1956 derivation paper.",
+        "scope": "All243 assignments of five observed0–2 scores. No assessment of signs or predictive/clinical thresholds is approved; this primary study found poor inter-rater reliability."
+      },
+      "executionBuild": {
+        "id": "IguaqI9wAzb-9t1Sb-4Ph",
+        "directory": ".next-private-final19"
+      },
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "fullSourceConformanceApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Silverman Andersen 1956:5 sinais 0–2, total 0–10",
+    "implementationVersion": "boletim-de-silverman-andersen@native-2026-10-03+c81f62b9efd9",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/13353856/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Cinco sinais, cada um de 0 (ausente) a 2 (intenso): movimento tóraco-abdominal, tiragem intercostal, retração xifoide, batimento de asa nasal e gemido expiratório. Total de 0 a 10: quanto maior, pior (ao contrário do Apgar).",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "tor",
+            "label": "Movimento tóraco-abdominal",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Sincronizado",
+              "1": "Declínio inspiratório",
+              "2": "Balancim (gangorra)"
+            }
+          },
+          {
+            "key": "ic",
+            "label": "Tiragem intercostal",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Pouco visível",
+              "2": "Marcada"
+            }
+          },
+          {
+            "key": "xif",
+            "label": "Retração xifoide",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Pouco visível",
+              "2": "Marcada"
+            }
+          },
+          {
+            "key": "asa",
+            "label": "Batimento de asa nasal",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Discreto",
+              "2": "Acentuado"
+            }
+          },
+          {
+            "key": "gem",
+            "label": "Gemido expiratório",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Audível com estetoscópio",
+              "2": "Audível sem estetoscópio"
+            }
+          }
+        ],
+        "hash": "51075e856527a2665a0ef6cdc86ee0361561aa53bd3be6d9fa391cc630980c00"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Silverman WA, Andersen DH. A controlled clinical trial of effects of water mist on obstructive respiratory signs, death rate and necropsy findings among premature infants. Pediatrics, 1956.",
+          "url": "https://doi.org/10.1542/peds.17.1.1",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A controlled clinical trial of effects of water mist on obstructive respiratory signs, death rate and necropsy findings among premature infants.",
+            "year": "1956",
+            "firstPublicationDate": "1956-01-01",
+            "pmid": "13353856",
+            "journal": "Pediatrics",
+            "authors": "SILVERMAN WA, ANDERSEN DH."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/13353856/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-publication-title"
+        },
+        {
+          "citation": "Hedstrom AB et al. Performance of the Silverman Andersen Respiratory Severity Score in predicting PCO2 and respiratory support in newborns: a prospective cohort study. J Perinatol, 2018.",
+          "url": "https://doi.org/10.1038/s41372-018-0049-3",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Performance of the Silverman Andersen Respiratory Severity Score in predicting PCO 2 and respiratory support in newborns: a prospective cohort study.",
+            "year": "2018",
+            "firstPublicationDate": "2018-02-09",
+            "doi": "10.1038/s41372-018-0049-3",
+            "pmid": "29426853",
+            "pmcid": "PMC5998375",
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "authors": "Hedstrom AB, Gove NE, Mayock DE, Batra M."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5998375/",
+          "abstractAvailable": true,
+          "fullTextSha256": "99b451bb94648302ad7e9ec84fd3d426aaa947e042a99a49a145e738e505df3a",
+          "abstractSha256": "f2fee07a288fdc99aaf0d39d5511d90256951e8157e9877834b36401582f8900",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T00:48:48.914Z",
+        "total": 243,
+        "passed": 243,
+        "evidencePath": "reports/review-20261003/additional-native-scoring-source-oracles-final19.json",
+        "evidenceSha256": "8f1eeb174b60822ed95db7c00b389f25d9f5ec4d1eb592cf2c9eaeebccd0717a",
+        "scope": "All243 assignments of five observed0–2 scores. No assessment of signs or predictive/clinical thresholds is approved; this primary study found poor inter-rater reliability."
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704"
+    },
+    "limits": "A soma Silverman-Andersen depende de observação adequada de cinco sinais respiratórios. O estudo de confiabilidade de 2023 em prematuros sob diferentes suportes encontrou baixa concordância entre avaliadores; interfaces respiratórias podem dificultar a observação de sinais e o treinamento é relevante. A soma disponível não determina automaticamente o suporte ventilatório e não comprova validade de todos os limiares clínicos.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.743Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Original 1956 identificado por PMID 13353856, sem resumo disponível. Não foi lida a tabela original ou ensaio integral. Há fonte posterior 2018 a conferir separadamente, sem atribuir suas exclusões ao estudo de 1956.",
+        "Não foi lido o ensaio original 1956; população e exclusões de estudos posteriores não podem ser atribuídas a ele. Não se confere indicação automática de suporte pela soma."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/boletim-de-silverman-andersen/calculator.js",
+    "bytes": 5274,
+    "sha256": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "19fa6e26aaf60ddb7510b229e6721e0c3116ebf7d716e2567e0382a34b03aa2f",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 243,
+      "sha256": "f40824c7a3a748e189aeed556eca9d5097e6db5416e308607b203e0288c443a5",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

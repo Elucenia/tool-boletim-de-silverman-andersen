@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field tor",
+    "input": {
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tor"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field tor",
+    "input": {
+      "tor": "",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "tor"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option tor",
+    "input": {
+      "tor": "__ELUCENIA_INVALID_OPTION__",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "tor"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field ic",
+    "input": {
+      "tor": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ic"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field ic",
+    "input": {
+      "tor": "0",
+      "ic": "",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "ic"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option ic",
+    "input": {
+      "tor": "0",
+      "ic": "__ELUCENIA_INVALID_OPTION__",
+      "xif": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "ic"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field xif",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "xif"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field xif",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "xif"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option xif",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "__ELUCENIA_INVALID_OPTION__",
+      "asa": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "xif"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field asa",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "asa"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field asa",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "asa"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option asa",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "__ELUCENIA_INVALID_OPTION__",
+      "gem": "0"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "asa"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field gem",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field gem",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option gem",
+    "input": {
+      "tor": "0",
+      "ic": "0",
+      "xif": "0",
+      "asa": "0",
+      "gem": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "gem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
