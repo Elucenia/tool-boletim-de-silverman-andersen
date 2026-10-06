@@ -173,7 +173,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Silverman Andersen 1956:5 sinais 0–2, total 0–10",
-    "implementationVersion": "boletim-de-silverman-andersen@native-2026-10-03+c81f62b9efd9",
+    "implementationVersion": "boletim-de-silverman-andersen@native-2026-10-05+2c785dc19e42",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/13353856/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -300,7 +300,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704"
+      "implementationHash": "2c785dc19e42170df95682ccee9ed1b2428e6b21e7147b0ee79b83cba5868c42",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "boletim-de-silverman-andersen@native-2026-10-03+c81f62b9efd9",
+          "previousImplementationHash": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704",
+          "implementationHash": "2c785dc19e42170df95682ccee9ed1b2428e6b21e7147b0ee79b83cba5868c42",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "51075e856527a2665a0ef6cdc86ee0361561aa53bd3be6d9fa391cc630980c00",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A soma Silverman-Andersen depende de observação adequada de cinco sinais respiratórios. O estudo de confiabilidade de 2023 em prematuros sob diferentes suportes encontrou baixa concordância entre avaliadores; interfaces respiratórias podem dificultar a observação de sinais e o treinamento é relevante. A soma disponível não determina automaticamente o suporte ventilatório e não comprova validade de todos os limiares clínicos.",
     "sourceLimitEvidence": {
@@ -320,15 +348,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/boletim-de-silverman-andersen/calculator.js",
-    "bytes": 5274,
-    "sha256": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704"
+    "bytes": 5479,
+    "sha256": "2c785dc19e42170df95682ccee9ed1b2428e6b21e7147b0ee79b83cba5868c42"
   },
-  "sourceToolSha256": "19fa6e26aaf60ddb7510b229e6721e0c3116ebf7d716e2567e0382a34b03aa2f",
+  "sourceToolSha256": "5b20596e6b5821e06231cbcb8bc5d1306e6ebad00ad6ea3c8e7e09a335dc7289",
   "omittedFullReferenceBanks": [
     {
       "rows": 243,
       "sha256": "f40824c7a3a748e189aeed556eca9d5097e6db5416e308607b203e0288c443a5",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

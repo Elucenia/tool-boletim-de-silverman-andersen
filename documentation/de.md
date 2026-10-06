@@ -93,3 +93,33 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Keine Atemnot
+
+
+### 2
+
+Atemnot vorhanden (1 bis 4 Punkte)
+
+Sättigung überwachen und den Score häufig neu bewerten; die Ursache abklären (transiente Tachypnoe, hyaline Membrankrankheit, Pneumonie, Mekoniumaspiration).
+
+
+### 3
+
+Mäßige bis schwere Atemnot (≥ 5 Punkte)
+
+In der Studie von Hedstrom (2018) benötigten 79% der Neugeborenen mit BSA ≥ 5 innerhalb von 24 Stunden eine Erhöhung der respiratorischen Unterstützung (gegenüber 28% mit < 5).
+
+
+### 4
+
+Mäßige bis schwere Atemnot (≥ 5 Punkte)
+
+In der Studie von Hedstrom (2018) benötigten 79% der Neugeborenen mit BSA ≥ 5 innerhalb von 24 Stunden eine Erhöhung der respiratorischen Unterstützung (gegenüber 28% mit < 5).
+

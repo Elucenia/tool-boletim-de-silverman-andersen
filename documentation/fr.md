@@ -93,3 +93,33 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Aucune détresse respiratoire
+
+
+### 2
+
+Détresse respiratoire présente (1 à 4 points)
+
+Surveiller la saturation et réévaluer fréquemment le score ; rechercher la cause (tachypnée transitoire, maladie des membranes hyalines, pneumonie, aspiration méconiale).
+
+
+### 3
+
+Détresse modérée à sévère (≥ 5 points)
+
+Dans l'étude de Hedstrom (2018), 79% des nouveau-nés avec BSA ≥ 5 ont eu besoin d'une augmentation du support respiratoire dans les 24 heures (contre 28% avec < 5).
+
+
+### 4
+
+Détresse modérée à sévère (≥ 5 points)
+
+Dans l'étude de Hedstrom (2018), 79% des nouveau-nés avec BSA ≥ 5 ont eu besoin d'une augmentation du support respiratoire dans les 24 heures (contre 28% avec < 5).
+

@@ -1,0 +1,657 @@
+{
+  "id": "boletim-de-silverman-andersen",
+  "implementationVersion": "boletim-de-silverman-andersen@native-2026-10-05+2c785dc19e42",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sem desconforto respiratório",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Desconforto respiratório presente (1 a 4 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Desconforto moderado a grave (≥ 5 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com < 5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Desconforto moderado a grave (≥ 5 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com < 5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "No respiratory distress",
+            "locale": "en",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Respiratory distress present (1 to 4 points)",
+            "locale": "en",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "Monitor saturation and reassess the score frequently; investigate the cause (transient tachypnea, hyaline membrane disease, pneumonia, meconium aspiration).",
+            "locale": "en",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate to severe distress (≥ 5 points)",
+            "locale": "en",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "In Hedstrom's study (2018), 79% of newborns with BSA ≥ 5 needed increased respiratory support within 24 hours (vs 28% with < 5).",
+            "locale": "en",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate to severe distress (≥ 5 points)",
+            "locale": "en",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "In Hedstrom's study (2018), 79% of newborns with BSA ≥ 5 needed increased respiratory support within 24 hours (vs 28% with < 5).",
+            "locale": "en",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sin dificultad respiratoria",
+            "locale": "es",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distrés respiratorio presente (1 a 4 puntos)",
+            "locale": "es",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "Monitorear la saturación y reevaluar el puntaje con frecuencia; investigar la causa (taquipnea transitoria, enfermedad de membrana hialina, neumonía, aspiración de meconio).",
+            "locale": "es",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distrés moderado a grave (≥ 5 puntos)",
+            "locale": "es",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "En el estudio de Hedstrom (2018), 79% de los recién nacidos con BSA ≥ 5 necesitaron aumentar el soporte respiratorio en 24 horas (frente a 28% con < 5).",
+            "locale": "es",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distrés moderado a grave (≥ 5 puntos)",
+            "locale": "es",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "En el estudio de Hedstrom (2018), 79% de los recién nacidos con BSA ≥ 5 necesitaron aumentar el soporte respiratorio en 24 horas (frente a 28% con < 5).",
+            "locale": "es",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Aucune détresse respiratoire",
+            "locale": "fr",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Détresse respiratoire présente (1 à 4 points)",
+            "locale": "fr",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "Surveiller la saturation et réévaluer fréquemment le score ; rechercher la cause (tachypnée transitoire, maladie des membranes hyalines, pneumonie, aspiration méconiale).",
+            "locale": "fr",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Détresse modérée à sévère (≥ 5 points)",
+            "locale": "fr",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Dans l'étude de Hedstrom (2018), 79% des nouveau-nés avec BSA ≥ 5 ont eu besoin d'une augmentation du support respiratoire dans les 24 heures (contre 28% avec < 5).",
+            "locale": "fr",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Détresse modérée à sévère (≥ 5 points)",
+            "locale": "fr",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Dans l'étude de Hedstrom (2018), 79% des nouveau-nés avec BSA ≥ 5 ont eu besoin d'une augmentation du support respiratoire dans les 24 heures (contre 28% avec < 5).",
+            "locale": "fr",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Keine Atemnot",
+            "locale": "de",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Atemnot vorhanden (1 bis 4 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "Sättigung überwachen und den Score häufig neu bewerten; die Ursache abklären (transiente Tachypnoe, hyaline Membrankrankheit, Pneumonie, Mekoniumaspiration).",
+            "locale": "de",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige bis schwere Atemnot (≥ 5 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "In der Studie von Hedstrom (2018) benötigten 79% der Neugeborenen mit BSA ≥ 5 innerhalb von 24 Stunden eine Erhöhung der respiratorischen Unterstützung (gegenüber 28% mit < 5).",
+            "locale": "de",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige bis schwere Atemnot (≥ 5 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "In der Studie von Hedstrom (2018) benötigten 79% der Neugeborenen mit BSA ≥ 5 innerhalb von 24 Stunden eine Erhöhung der respiratorischen Unterstützung (gegenüber 28% mit < 5).",
+            "locale": "de",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Nessun distress respiratorio",
+            "locale": "it",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distress respiratorio presente (1 a 4 punti)",
+            "locale": "it",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "Monitorare la saturazione e rivalutare frequentemente il punteggio; indagare la causa (tachipnea transitoria, malattia delle membrane ialine, polmonite, aspirazione di meconio).",
+            "locale": "it",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distress da moderato a grave (≥ 5 punti)",
+            "locale": "it",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Nello studio di Hedstrom (2018), il 79% dei neonati con BSA ≥ 5 ha richiesto un aumento del supporto respiratorio entro 24 ore (contro il 28% con < 5).",
+            "locale": "it",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Distress da moderato a grave (≥ 5 punti)",
+            "locale": "it",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Nello studio di Hedstrom (2018), il 79% dei neonati con BSA ≥ 5 ha richiesto un aumento del supporto respiratorio entro 24 ore (contro il 28% con < 5).",
+            "locale": "it",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "لا ضائقة تنفسية",
+            "locale": "ar",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ضائقة تنفسية موجودة (1 إلى 4 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "راقب الإشباع وأعد تقييم الدرجة بشكل متكرر؛ تحرَّ عن السبب (تسرع النفس العابر، مرض الغشاء الهياليني، الالتهاب الرئوي، شفط العقي).",
+            "locale": "ar",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ضائقة متوسطة إلى شديدة (≥ 5 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "في دراسة Hedstrom (2018)، احتاج 79% من حديثي الولادة الذين لديهم BSA ≥ 5 إلى زيادة الدعم التنفسي خلال 24 ساعة (مقابل 28% مع < 5).",
+            "locale": "ar",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ضائقة متوسطة إلى شديدة (≥ 5 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "في دراسة Hedstrom (2018)، احتاج 79% من حديثي الولادة الذين لديهم BSA ≥ 5 إلى زيادة الدعم التنفسي خلال 24 ساعة (مقابل 28% مع < 5).",
+            "locale": "ar",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "无呼吸窘迫",
+            "locale": "zh",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "存在呼吸窘迫（1至4分）",
+            "locale": "zh",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "监测血氧饱和度并频繁重新评估评分；调查病因（暂时性呼吸急促、透明膜病、肺炎、胎粪吸入）。",
+            "locale": "zh",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度至重度呼吸窘迫（≥ 5分）",
+            "locale": "zh",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "在 Hedstrom（2018）研究中，BSA ≥ 5 的新生儿中有 79% 需要在 24 小时内增加呼吸支持（而 < 5 者为 28%）。",
+            "locale": "zh",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度至重度呼吸窘迫（≥ 5分）",
+            "locale": "zh",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "在 Hedstrom（2018）研究中，BSA ≥ 5 的新生儿中有 79% 需要在 24 小时内增加呼吸支持（而 < 5 者为 28%）。",
+            "locale": "zh",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "呼吸窮迫なし",
+            "locale": "ja",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "呼吸窮迫あり（1～4点）",
+            "locale": "ja",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "酸素飽和度を監視し、スコアを頻回に再評価する；原因を調べる（遷延性頻呼吸、硝子膜病、肺炎、胎便吸引）。",
+            "locale": "ja",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度から重度の呼吸窮迫（≥ 5点）",
+            "locale": "ja",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Hedstrom の研究（2018）では、BSA ≥ 5 の新生児の79%が24時間以内に呼吸サポートの増強を必要とした（< 5 では28%）。",
+            "locale": "ja",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度から重度の呼吸窮迫（≥ 5点）",
+            "locale": "ja",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Hedstrom の研究（2018）では、BSA ≥ 5 の新生児の79%が24時間以内に呼吸サポートの増強を必要とした（< 5 では28%）。",
+            "locale": "ja",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Nenhum sinal: 0 ponto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "श्वसन कष्ट नहीं",
+            "locale": "hi",
+            "template": "documented-authored-07dae59f7226c2953338"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "श्वसन कष्ट उपस्थित (1 से 4 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-656429e0f18f88448a9b"
+          },
+          "note": {
+            "text": "सैचुरेशन की निगरानी करें और स्कोर का बार-बार पुनर्मूल्यांकन करें; कारण की जाँच करें (क्षणिक तचीप्निया, हायलिन मेम्ब्रेन रोग, निमोनिया, मेकोनियम एस्पिरेशन)।",
+            "locale": "hi",
+            "template": "documented-authored-edffc8457202231f3e59"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम से गंभीर श्वसन कष्ट (≥ 5 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Hedstrom के अध्ययन (2018) में, BSA ≥ 5 वाले 79% नवजातों को 24 घंटों के भीतर श्वसन समर्थन बढ़ाने की आवश्यकता हुई (जबकि < 5 वाले में 28%)।",
+            "locale": "hi",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम से गंभीर श्वसन कष्ट (≥ 5 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-049aac4d165fa4b7e162"
+          },
+          "note": {
+            "text": "Hedstrom के अध्ययन (2018) में, BSA ≥ 5 वाले 79% नवजातों को 24 घंटों के भीतर श्वसन समर्थन बढ़ाने की आवश्यकता हुई (जबकि < 5 वाले में 28%)।",
+            "locale": "hi",
+            "template": "documented-authored-41a151963facc6381101"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

@@ -93,3 +93,33 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Nessun distress respiratorio
+
+
+### 2
+
+Distress respiratorio presente (1 a 4 punti)
+
+Monitorare la saturazione e rivalutare frequentemente il punteggio; indagare la causa (tachipnea transitoria, malattia delle membrane ialine, polmonite, aspirazione di meconio).
+
+
+### 3
+
+Distress da moderato a grave (≥ 5 punti)
+
+Nello studio di Hedstrom (2018), il 79% dei neonati con BSA ≥ 5 ha richiesto un aumento del supporto respiratorio entro 24 ore (contro il 28% con < 5).
+
+
+### 4
+
+Distress da moderato a grave (≥ 5 punti)
+
+Nello studio di Hedstrom (2018), il 79% dei neonati con BSA ≥ 5 ha richiesto un aumento del supporto respiratorio entro 24 ore (contro il 28% con < 5).
+

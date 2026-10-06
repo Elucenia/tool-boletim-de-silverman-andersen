@@ -1,0 +1,226 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "boletim-de-silverman-andersen",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "343a7ae5c26e29750aa65e7f1c2d7f9614cea00f",
+    "oldEngineSha256": "c81f62b9efd9f50df56f3cefa51a57cf468819c067d9b9ba608c64e2564b9704",
+    "currentEngineSha256": "2c785dc19e42170df95682ccee9ed1b2428e6b21e7147b0ee79b83cba5868c42"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Nenhum sinal: 0 ponto",
+      "input": {
+        "tor": "0",
+        "ic": "0",
+        "xif": "0",
+        "asa": "0",
+        "gem": "0"
+      },
+      "publicOutput": {
+        "id": "boletim-de-silverman-andersen",
+        "main": [
+          "0",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "level": "low",
+        "verdict": "Sem desconforto respiratório",
+        "note": "",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Declínio inspiratório, tiragem e retração pouco visíveis: 3 pontos",
+      "input": {
+        "tor": "1",
+        "ic": "1",
+        "xif": "1",
+        "asa": "0",
+        "gem": "0"
+      },
+      "publicOutput": {
+        "id": "boletim-de-silverman-andersen",
+        "main": [
+          "3",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "raw": {
+          "score": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 3,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "level": "mid",
+        "verdict": "Desconforto respiratório presente (1 a 4 pontos)",
+        "note": "Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio).",
+        "raw": {
+          "score": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Tiragem marcada, retração pouco visível, asa discreta, gemido com estetoscópio: 5 pontos (limite)",
+      "input": {
+        "tor": "0",
+        "ic": "2",
+        "xif": "1",
+        "asa": "1",
+        "gem": "1"
+      },
+      "publicOutput": {
+        "id": "boletim-de-silverman-andersen",
+        "main": [
+          "5",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "raw": {
+          "score": 5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 5,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "level": "high",
+        "verdict": "Desconforto moderado a grave (≥ 5 pontos)",
+        "note": "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com &lt; 5).",
+        "raw": {
+          "score": 5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Balancim, tiragem marcada, retração pouco visível, asa discreta, gemido audível: 8 pontos",
+      "input": {
+        "tor": "2",
+        "ic": "2",
+        "xif": "1",
+        "asa": "1",
+        "gem": "2"
+      },
+      "publicOutput": {
+        "id": "boletim-de-silverman-andersen",
+        "main": [
+          "8",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "raw": {
+          "score": 8
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 8,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "8",
+          "de 10"
+        ],
+        "label": "Boletim de Silverman-Andersen",
+        "level": "high",
+        "verdict": "Desconforto moderado a grave (≥ 5 pontos)",
+        "note": "No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com &lt; 5).",
+        "raw": {
+          "score": 8
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

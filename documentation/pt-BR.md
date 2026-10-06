@@ -93,3 +93,33 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Sem desconforto respiratório
+
+
+### 2
+
+Desconforto respiratório presente (1 a 4 pontos)
+
+Monitorar saturação e reavaliar o boletim com frequência; investigar a causa (taquipneia transitória, doença da membrana hialina, pneumonia, aspiração de mecônio).
+
+
+### 3
+
+Desconforto moderado a grave (≥ 5 pontos)
+
+No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com < 5).
+
+
+### 4
+
+Desconforto moderado a grave (≥ 5 pontos)
+
+No estudo de Hedstrom (2018), 79% dos recém-nascidos com BSA ≥ 5 precisaram aumentar o suporte respiratório em 24 horas (contra 28% com < 5).
+

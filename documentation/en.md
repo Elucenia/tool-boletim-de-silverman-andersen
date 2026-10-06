@@ -93,3 +93,33 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+No respiratory distress
+
+
+### 2
+
+Respiratory distress present (1 to 4 points)
+
+Monitor saturation and reassess the score frequently; investigate the cause (transient tachypnea, hyaline membrane disease, pneumonia, meconium aspiration).
+
+
+### 3
+
+Moderate to severe distress (≥ 5 points)
+
+In Hedstrom's study (2018), 79% of newborns with BSA ≥ 5 needed increased respiratory support within 24 hours (vs 28% with < 5).
+
+
+### 4
+
+Moderate to severe distress (≥ 5 points)
+
+In Hedstrom's study (2018), 79% of newborns with BSA ≥ 5 needed increased respiratory support within 24 hours (vs 28% with < 5).
+
